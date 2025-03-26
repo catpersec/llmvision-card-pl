@@ -44,7 +44,7 @@ export function getIcon(title, lang = 'en') {
         console.error('Error getting icon:', error);
     }
 
-    return { icon: 'mdi:cube-scan', backgroundColor: 'gray', iconColor: 'white' }; // Default icon and colors if no keyword is found
+    return { icon: 'mdi:alpha-x', backgroundColor: 'gray', iconColor: 'white' }; // Default icon and colors if no keyword is found
 }
 
 const translations = {
